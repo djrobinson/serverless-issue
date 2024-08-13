@@ -6,3 +6,4 @@ It appears that running any two `serverless` commands simultaneously in a monore
 cd ~/.serverless/releases
 rm -rf 4.1.22
 ```
+2. Now run 
