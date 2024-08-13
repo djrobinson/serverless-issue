@@ -1,0 +1,13 @@
+{
+  "name": "pkg-three",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.140"
+  },
+  "scripts": {
+    "sanity-check": "sls --version",
+    "dev": "sls dev"
+  }
+}

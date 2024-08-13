@@ -12,9 +12,6 @@
     "dev": "turbo run dev"
   },
   "workspaces": [
-    "apps/*",
-    "packages/*",
-    "shared-infra/*",
-    "packages/services/PrismaLayer"
+    "packages/*"
   ]
 }

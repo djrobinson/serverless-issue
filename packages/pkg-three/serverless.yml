@@ -1,0 +1,15 @@
+service: pkg-three
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  timeout: 30
+  region: us-east-1
+
+functions:
+  simpleExampleThree:
+    handler: index.handler
+    name: simple-example-three
