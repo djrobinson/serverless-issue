@@ -1,0 +1,9 @@
+service: pkg-two
+
+package:
+  individually: true
+
+functions:
+  simpleExample:
+    handler: index.handler
+    name: simple-example
