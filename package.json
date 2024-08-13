@@ -9,7 +9,7 @@
   },
   "scripts": {
     "sanity-check": "turbo run sanity-check",
-    "run-manually": "./node_modules/serverless/node_modules/.bin/serverless-darwin-arm64-0.0.2"
+    "dev": "turbo run dev"
   },
   "workspaces": [
     "apps/*",

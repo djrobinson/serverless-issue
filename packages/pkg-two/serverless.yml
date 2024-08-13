@@ -3,7 +3,13 @@ service: pkg-two
 package:
   individually: true
 
+provider:
+  name: aws
+  runtime: nodejs18.x
+  timeout: 30
+  region: us-east-1
+
 functions:
-  simpleExample:
+  simpleExampleOne:
     handler: index.handler
-    name: simple-example
+    name: simple-example-one
